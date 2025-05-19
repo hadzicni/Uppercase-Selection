@@ -1,71 +1,84 @@
-# uppercase-selection README
+# 🔠 Uppercase Selection VSCode Extension
 
-This is the README for your extension "uppercase-selection". After writing up a brief description, we recommend including the following sections.
+A lightweight VS Code extension to quickly **convert selected text to UPPERCASE** via a context menu or command palette. Perfect for developers who frequently need text case transformations directly in the editor.
 
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+![VS Code](https://img.shields.io/badge/vscode-1.100+-blue?logo=visualstudiocode)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
-## Following extension guidelines
+## ✨ Features
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+- 🔡 Converts any selected text to uppercase
+- 🖱️ Available in right-click editor context menu
+- ⌨️ Can also be triggered via Command Palette
+- ⚡ Instant text replacement without delay
+- 🎯 Only runs when text is selected
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+---
 
-## Working with Markdown
+## ⚙️ Installation
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+### From VS Code Marketplace (recommended)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+> _Coming soon: Will be available once published._
 
-## For more information
+### From source (development)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+1. Clone this repository:
 
-**Enjoy!**
+   ```bash
+   git clone https://github.com/hadzicni/uppercase-selection.git
+   cd uppercase-selection
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Compile the extension:
+
+   ```bash
+   npm run compile
+   ```
+
+4. Open in VS Code and press `F5` to run in Extension Development Host.
+
+---
+
+## 🚀 Usage
+
+1. Select any text in the editor.
+2. Right-click and choose **"Convert Selection to UPPERCASE"**, or
+3. Open the Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`) and search:
+   ```
+   Convert Selection to UPPERCASE
+   ```
+4. The selected text will be replaced with its uppercase version.
+
+> ℹ️ If nothing is selected, the command will show a hint instead.
+
+---
+
+## 🧪 Testing
+
+Run the tests using:
+
+```bash
+npm run test
+```
+
+---
+
+## 👨‍💻 Author
+
+Made by **Nikola Hadzic**  
+GitHub: [@hadzicni](https://github.com/hadzicni)
+
+---
+
+## 📄 License
+
+This extension is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
