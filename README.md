@@ -3,7 +3,7 @@
 A lightweight VS Code extension to quickly **convert selected text to UPPERCASE** via a context menu or command palette. Perfect for developers who frequently need text case transformations directly in the editor.
 
 ![VS Code](https://img.shields.io/badge/vscode-1.100+-blue?logo=visualstudiocode)
-![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/badge/license-Apache--2.0-blue)
 
 ---
 
